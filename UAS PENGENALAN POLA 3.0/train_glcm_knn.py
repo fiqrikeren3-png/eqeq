@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 import joblib
 import os
 
-DATA_DIR = "dataset/train"
+DATA_DIR = os.path.join(os.path.dirname(__file__), "dataset", "train")
 MODEL_PATH = "glcm_svm_model.joblib"
 IMG_SIZE = (200, 200)
 K_NEIGH = 5

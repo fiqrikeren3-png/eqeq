@@ -6,7 +6,7 @@ import numpy as np
 from preprocessing_glcm import preprocess_image
 
 app = Flask(__name__)
-MODEL_PATH = "glcm_svm_model.joblib"
+MODEL_PATH = "glcm_best_model.joblib"
 
 HTML = '''
 <!DOCTYPE html>
